@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IdentifyVowels.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Identify Vowels"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Enter a letter to check if it's a vowel or not."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Enter a letter to check if it's a vowel or not."
+                FontSize="18"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="Center" />
+
+            <!-- input field to enter a letter -->
+            <Frame
+                BorderColor="Black"
+                >
+                <Entry
+                x:Name="entry"
+                Placeholder="Enter a letter"
+                MaxLength="1"
+                FontSize="16"
+                ReturnType="Done"
+                VerticalTextAlignment="Center"
+                />
+                </Frame>
+
+            <!-- show error message -->
+             <Label
+                x:Name= "errorMsg"
+                IsVisible = "False"
+                Text="Letter field should not be empty."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Letter field should not be empty."
+                FontSize="12"
+                TextColor = "Red"
+                VerticalTextAlignment="Start"
+                HorizontalOptions="Start" />
+
+            <!-- btn to checking the letter -->
+            <Button
+                x:Name="CheckBtn"
+                Text="Check"
+                SemanticProperties.Hint="Checks whether the letter is vowel or not"
+                Clicked="onCheckBtnClicked"
+                HorizontalOptions="Center" />
+
+            <!-- show result -->
+            <Label
+                x:Name="resultMsg"
+                Text="Yes, it is a vowel"
+                IsVisible="False"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Result of a vowel."
+                FontSize="18"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

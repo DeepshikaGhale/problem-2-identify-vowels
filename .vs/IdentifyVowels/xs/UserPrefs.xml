@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{778FA318-2201-4552-BC80-D9363E741C74}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.IdentifyVowels PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IdentifyVowels/MainPage.xaml.cs">
+    <Files>
+      <File FileName="IdentifyVowels/MainPage.xaml.cs" Line="10" Column="25" />
+      <File FileName="IdentifyVowels/MainPage.xaml" Line="51" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IdentifyVowels" expanded="True">
+            <Node name="IdentifyVowels" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
